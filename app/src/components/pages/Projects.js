@@ -7,7 +7,6 @@ import Weatherapi from "../../assets/weather.png";
 import BusyBee from "../../assets/Busybee.png";
 import PasswordGen from "../../assets/Passwordgenerator.png";
 import SecondTeam from "../../assets/2ndTeamProductions.png";
-import video from "../../assets/Balcone.mov";
 
 function Projects() {
   return (
