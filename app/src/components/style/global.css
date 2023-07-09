@@ -1,0 +1,19 @@
+    *{
+    background-color:black;
+    font-family: 'Courier New', Courier, monospace;
+    -webkit-text-fill-color: silver;
+}
+
+h2 {
+  display: flex;
+  
+  font-size: 20pt;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 0pt;
+}
+
+
+
+.nav-pills .nav-link.active {
+    background-color: rgb(57, 46, 46) !important;
+}
