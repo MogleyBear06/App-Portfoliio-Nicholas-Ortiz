@@ -7,7 +7,7 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Projects';
 import Contact from './pages/Contact';
-// import Video from '../components/vid'
+import Video from '../components/vid'
 import ParticleCanvas from './Particlecanvas';
 
 export default function PortfolioContainer() {
@@ -38,7 +38,7 @@ export default function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* <ParticleCanvas></ParticleCanvas> */}
       
-      {/* <Video></Video> */}
+      <Video></Video>
       <br></br>
       <br></br>
       <br></br>
