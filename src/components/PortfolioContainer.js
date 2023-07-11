@@ -34,7 +34,6 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-    
       <br></br>
       <br></br>
       <br></br>
