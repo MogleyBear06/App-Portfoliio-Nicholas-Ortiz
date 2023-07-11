@@ -1,8 +1,8 @@
 {
-  "name": "app",
+  "name": "app-portfolio-nicholas-ortiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mogleybear06.github.io",
+  "homepage": "https://mogleybear06.github.io/app-portfolio-nicholas-ortiz",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
