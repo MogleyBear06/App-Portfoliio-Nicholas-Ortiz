@@ -39,7 +39,7 @@ export default function PortfolioContainer() {
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* <ParticleCanvas></ParticleCanvas> */}
       {/* <Sketch></Sketch> */}
-      <Video></Video>
+      {/* <Video></Video> */}
       <br></br>
       <br></br>
       <br></br>
