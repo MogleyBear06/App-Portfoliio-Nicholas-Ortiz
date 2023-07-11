@@ -7,9 +7,6 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Projects';
 import Contact from './pages/Contact';
-import Video from '../components/vid'
-import ParticleCanvas from './SteeringTextPaths';
-import Sketch from '../assets/graphic/sketch';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -37,9 +34,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* <ParticleCanvas></ParticleCanvas> */}
-      {/* <Sketch></Sketch> */}
-      {/* <Video></Video> */}
+    
       <br></br>
       <br></br>
       <br></br>

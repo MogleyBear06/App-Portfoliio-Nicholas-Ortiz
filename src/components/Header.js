@@ -1,8 +1,6 @@
 import React from "react";
 import NavTabs from "./NavTabs";
 
-import secondteam from "../assets/header_homepage2.png";
-
 function Header({ currentPage, handlePageChange }) {
   return (
     <>
