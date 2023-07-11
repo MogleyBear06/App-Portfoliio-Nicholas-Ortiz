@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/app-portfolio-nicholas-ortiz/static/css/main.890ee998.css",
-    "main.js": "/app-portfolio-nicholas-ortiz/static/js/main.5a24ba1d.js",
-    "static/media/hs3.png": "/app-portfolio-nicholas-ortiz/static/media/hs3.31d75f2cb942eee90054.png",
-    "static/media/bb.png": "/app-portfolio-nicholas-ortiz/static/media/bb.ebc2302ad879f1474f9e.png",
-    "static/media/2ndTeamProductions.png": "/app-portfolio-nicholas-ortiz/static/media/2ndTeamProductions.0a0bf812e0cd9c9af008.png",
-    "static/media/NicholasOrtizResume.pdf": "/app-portfolio-nicholas-ortiz/static/media/NicholasOrtizResume.423d0c9bb87e06d02e48.pdf",
-    "static/media/Busybee.png": "/app-portfolio-nicholas-ortiz/static/media/Busybee.72c80d34559b94351d6d.png",
-    "static/media/weather.png": "/app-portfolio-nicholas-ortiz/static/media/weather.33fa1384f1c4e3f4a447.png",
-    "static/media/Passwordgenerator.png": "/app-portfolio-nicholas-ortiz/static/media/Passwordgenerator.4a4abe6e055835329cbf.png",
-    "static/media/niftynote.png": "/app-portfolio-nicholas-ortiz/static/media/niftynote.0a5a7b42958e6af2efa0.png",
-    "index.html": "/app-portfolio-nicholas-ortiz/index.html",
-    "main.890ee998.css.map": "/app-portfolio-nicholas-ortiz/static/css/main.890ee998.css.map",
-    "main.5a24ba1d.js.map": "/app-portfolio-nicholas-ortiz/static/js/main.5a24ba1d.js.map"
+    "main.css": "/App-Portfolio-Nicholas-Ortiz/static/css/main.890ee998.css",
+    "main.js": "/App-Portfolio-Nicholas-Ortiz/static/js/main.86423221.js",
+    "static/media/hs3.png": "/App-Portfolio-Nicholas-Ortiz/static/media/hs3.31d75f2cb942eee90054.png",
+    "static/media/bb.png": "/App-Portfolio-Nicholas-Ortiz/static/media/bb.ebc2302ad879f1474f9e.png",
+    "static/media/2ndTeamProductions.png": "/App-Portfolio-Nicholas-Ortiz/static/media/2ndTeamProductions.0a0bf812e0cd9c9af008.png",
+    "static/media/NicholasOrtizResume.pdf": "/App-Portfolio-Nicholas-Ortiz/static/media/NicholasOrtizResume.423d0c9bb87e06d02e48.pdf",
+    "static/media/Busybee.png": "/App-Portfolio-Nicholas-Ortiz/static/media/Busybee.72c80d34559b94351d6d.png",
+    "static/media/weather.png": "/App-Portfolio-Nicholas-Ortiz/static/media/weather.33fa1384f1c4e3f4a447.png",
+    "static/media/Passwordgenerator.png": "/App-Portfolio-Nicholas-Ortiz/static/media/Passwordgenerator.4a4abe6e055835329cbf.png",
+    "static/media/niftynote.png": "/App-Portfolio-Nicholas-Ortiz/static/media/niftynote.0a5a7b42958e6af2efa0.png",
+    "index.html": "/App-Portfolio-Nicholas-Ortiz/index.html",
+    "main.890ee998.css.map": "/App-Portfolio-Nicholas-Ortiz/static/css/main.890ee998.css.map",
+    "main.86423221.js.map": "/App-Portfolio-Nicholas-Ortiz/static/js/main.86423221.js.map"
   },
   "entrypoints": [
     "static/css/main.890ee998.css",
-    "static/js/main.5a24ba1d.js"
+    "static/js/main.86423221.js"
   ]
 }
