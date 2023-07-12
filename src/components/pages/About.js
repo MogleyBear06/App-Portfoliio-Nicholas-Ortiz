@@ -15,7 +15,7 @@ export default function About() {
         </div>
 
         <div className='container col-4 d-flex justify-content-end align-items-center' style={{border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
-          <img src={nick} alt='image of Nick' className="justify-content-center" style={{ maxWidth: '226px', height: '283px' }} />
+          <img src={nick} alt='Nick' className="justify-content-center" style={{ maxWidth: '226px', height: '283px' }} />
         </div>
       </div>
     </div>
