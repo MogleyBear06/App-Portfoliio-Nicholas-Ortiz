@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import BrowserRouter from 'react-router-dom/BrowserRouter'
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render((
-   <BrowserRouter basename={process.env.PUBLIC_URL}>
-     <App />
-   </BrowserRouter>
-)); 
-
+ReactDOM.render(
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
