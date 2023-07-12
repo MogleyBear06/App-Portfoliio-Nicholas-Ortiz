@@ -7,6 +7,7 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Projects';
 import Contact from './pages/Contact';
+import Video from './vid'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -34,6 +35,7 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Video></Video>
       <br></br>
       <br></br>
       <br></br>
