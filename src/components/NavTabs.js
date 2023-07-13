@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -7,7 +8,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className="navbar-brand" style={{ fontSize: "30pt" }}>
           Nicholas Ortiz
         </div>
-        <button
+        <Button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -17,7 +18,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button>
+        </Button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
