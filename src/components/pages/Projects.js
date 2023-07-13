@@ -16,27 +16,27 @@ function Projects() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <a href="https://barkbookapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-              <img src={BarkBook} alt="Barkbook" className="rounded" style={{ height: '200px', width: '300px',  }} />
+              <img src={BarkBook} alt="Barkbook" className="rounded img-fluid" />
             </a>
             <a href='https://github.com/MogleyBear06/BarkBook.git' target="_blank" rel="noopener noreferrer">
               <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
             </a>
           </div>
 
-          <div className="col-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <a href="https://nifteynotebynick.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-              <img src={NiftyNote} alt='NiftyNote' className="rounded" style={{ height: '200px', width: '300px' }} />
+              <img src={NiftyNote} alt='NiftyNote' className="rounded img-fluid" />
             </a>
             <a href="https://github.com/MogleyBear06/Nifty-Note.git" target="_blank" rel="noopener noreferrer">
               <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
             </a>
           </div>
 
-          <div className="col-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <a href="https://mogleybear06.github.io/Whats-The-Weather/" target="_blank" rel="noopener noreferrer">
-              <img src={Weatherapi} alt="weather api" className="rounded" style={{ height: '200px', width: '300px' }} />
+              <img src={Weatherapi} alt="weather api" className="rounded img-fluid" />
             </a>
             <a href='https://github.com/MogleyBear06/Whats-The-Weather.git' target="_blank" rel="noopener noreferrer">
               <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
@@ -46,27 +46,27 @@ function Projects() {
         <br></br>
 
         <div className="row">
-          <div className="col-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <a href="https://mogleybear06.github.io/Busy-Bee-Daily-Planner/" target="_blank" rel="noopener noreferrer">
-              <img src={BusyBee} alt='busybee' className="rounded" style={{ height: '200px', width: '300px' }} />
+              <img src={BusyBee} alt='busybee' className="rounded img-fluid" />
             </a>
             <a href='https://github.com/MogleyBear06/Busy-Bee-Daily-Planner.git' target="_blank" rel="noopener noreferrer">
               <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
             </a>
           </div>
 
-          <div className="col-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <a href="https://mogleybear06.github.io/Password-Generator-by-Nicholas-Ortiz/" target="_blank" rel="noopener noreferrer">
-              <img src={PasswordGen} alt='password generator app' className="rounded" style={{ height: '200px', width: '300px' }} />
+              <img src={PasswordGen} alt='password generator app' className="rounded img-fluid" />
             </a>
             <a href=' https://github.com/MogleyBear06/Password-Generator-by-Nicholas-Ortiz.git' target="_blank" rel="noopener noreferrer">
               <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
             </a>
           </div>
 
-          <div className="col-4">
+          <div className="col-12 col-sm-6 col-md-4">
             <a href="https://mogleybear06.github.io/Nicholas_Ortiz-Portfolio-Second-Team-Productions/" target="_blank" rel="noopener noreferrer">
-              <img src={SecondTeam} alt='first portfolio' className="rounded" style={{ height: '200px', width: '300px' }} />
+              <img src={SecondTeam} alt='first portfolio' className="rounded img-fluid" />
             </a>
             <a href='https://github.com/MogleyBear06/Nicholas_Ortiz-Portfolio-Second-Team-Productions.git' target="_blank" rel="noopener noreferrer">
               <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
