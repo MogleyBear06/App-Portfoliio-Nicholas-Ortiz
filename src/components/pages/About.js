@@ -3,7 +3,7 @@ import nick from '../../assets/hs3.png';
 
 export default function About() {
   return (
-    <div className='container' style={{ maxWidth: "100%", border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
+    <div className='container' style={{ maxWidth: "70%", border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
       <div className='row align-items-center'>
         <div className='col-sm-8'>
           <h3>Nicholas Ortiz, MS</h3>
