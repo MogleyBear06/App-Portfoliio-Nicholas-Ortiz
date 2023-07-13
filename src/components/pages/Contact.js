@@ -39,64 +39,58 @@ function Contact() {
 
   return (
     <>
-      <h4 className="container-md">Would you like to know more? Drop us a line and let's start a conversation!</h4>
+      <h4 className="container">Would you like to know more? Drop us a line and let's start a conversation!</h4>
       <section>
-        <form className="container">
-          <div className="container mt-4">
-            <div className="row justify-content-center">
-              <div className="col-12 col-sm-10 col-md-5">
-                <label>Name</label>
-                <br />
-                <input
-                  type="text"
-                  defaultValue={name}
-                  onBlur={handleChange}
-                  name="Name"
-                  placeholder="FirstName, Lastname"
-                />
-              </div>
+        <form className="container-fluid">
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-10 col-md-5">
+              <label>Name</label>
               <br />
-              <div className="col-12 col-sm-10 col-md-5">
-                <label>Email</label>
-                <br />
-                <input
-                  type="email"
-                  defaultValue={email}
-                  name="email"
-                  onBlur={handleChange}
-                  placeholder="johndoe@gmail.com"
-                />
-              </div>
+              <input
+                type="text"
+                defaultValue={name}
+                onBlur={handleChange}
+                name="Name"
+                placeholder="FirstName, Lastname"
+              />
+            </div>
+            <br />
+            <div className="col-12 col-sm-10 col-md-5">
+              <label>Email</label>
+              <br />
+              <input
+                type="email"
+                defaultValue={email}
+                name="email"
+                onBlur={handleChange}
+                placeholder="johndoe@gmail.com"
+              />
             </div>
           </div>
           <br />
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-sm-10 col-md-10">
-                <label htmlFor="status">Are you a potential client, collaborator, or simply interested?</label>
-                <select className="col-2 text-center" placeholder="Select">
-                  <option>Client</option>
-                  <option>Collaborator</option>
-                  <option>Simply Interested</option>
-                </select>
-              </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-10 col-md-10">
+              <label htmlFor="status">Are you a potential client, collaborator, or simply interested?</label>
+              <select className="col-2 text-center" placeholder="Select">
+                <option>Client</option>
+                <option>Collaborator</option>
+                <option>Simply Interested</option>
+              </select>
             </div>
           </div>
           <br />
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-sm-10 col-md-10">
-                <label htmlFor="Message">What are you interested in learning more about?</label>
-                <br />
-                <textarea
-                  className="col-12 col-sm-10 col-md-10"
-                  name="Message"
-                  defaultValue={message}
-                  onBlur={handleChange}
-                  placeholder="Please Enter Your Message"
-                  rows="6"
-                />
-              </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-10 col-md-10">
+              <label htmlFor="Message">What are you interested in learning more about?</label>
+              <br />
+              <textarea
+                className="col-12 col-sm-10 col-md-10"
+                name="Message"
+                defaultValue={message}
+                onBlur={handleChange}
+                placeholder="Please Enter Your Message"
+                rows="6"
+              />
             </div>
           </div>
           <br />
@@ -105,13 +99,11 @@ function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-12 col-sm-10 col-md-10">
-                <button type="submit" onSubmit={handleSubmit}>
-                  Submit
-                </button>
-              </div>
+          <div className="row justify-content-center">
+            <div className="col-12 col-sm-10 col-md-10">
+              <button type="submit" onSubmit={handleSubmit}>
+                Submit
+              </button>
             </div>
           </div>
         </form>
