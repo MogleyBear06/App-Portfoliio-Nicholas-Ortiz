@@ -16,7 +16,7 @@ function Projects() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-6 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://barkbookapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img src={BarkBook} alt="Barkbook" className="rounded img-fluid" />
             </a>
@@ -25,7 +25,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://nifteynotebynick.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img src={NiftyNote} alt='NiftyNote' className="rounded img-fluid" />
             </a>
@@ -34,7 +34,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://mogleybear06.github.io/Whats-The-Weather/" target="_blank" rel="noopener noreferrer">
               <img src={Weatherapi} alt="weather api" className="rounded img-fluid" />
             </a>
@@ -46,7 +46,7 @@ function Projects() {
         <br></br>
 
         <div className="row">
-          <div className="col-12 col-sm-6 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://mogleybear06.github.io/Busy-Bee-Daily-Planner/" target="_blank" rel="noopener noreferrer">
               <img src={BusyBee} alt='busybee' className="rounded img-fluid" />
             </a>
@@ -55,7 +55,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://mogleybear06.github.io/Password-Generator-by-Nicholas-Ortiz/" target="_blank" rel="noopener noreferrer">
               <img src={PasswordGen} alt='password generator app' className="rounded img-fluid" />
             </a>
@@ -64,7 +64,7 @@ function Projects() {
             </a>
           </div>
 
-          <div className="col-12 col-sm-6 col-md-4">
+          <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://mogleybear06.github.io/Nicholas_Ortiz-Portfolio-Second-Team-Productions/" target="_blank" rel="noopener noreferrer">
               <img src={SecondTeam} alt='first portfolio' className="rounded img-fluid" />
             </a>
