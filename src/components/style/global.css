@@ -17,3 +17,7 @@ h2 {
 .nav-pills .nav-link.active {
     background-color: rgb(57, 46, 46) !important;
 }
+
+.navbar-collapse.custom-collapse {
+  background-color: rgb(57, 46, 46) !important;
+}

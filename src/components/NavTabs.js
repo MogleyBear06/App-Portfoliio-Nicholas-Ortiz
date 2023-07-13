@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           <span className="navbar-toggler-icon"></span>
         </Button>
-        <Collapse in={navbarOpen}>
+        <Collapse in={navbarOpen} className="custom-collapse">
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
