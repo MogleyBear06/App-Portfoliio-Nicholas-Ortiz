@@ -2,7 +2,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="container">
   <nav className="navbar navbar-expand-lg"> 
-     <div className="navbar-brand" style={{fontSize: "30pt"}} >Nicholas Ortiz</div>
+     <div className="navbar-brand" style={{fontSize: "30pt",  flex: '0 0 auto' }} >Nicholas Ortiz</div>
      <ul className="nav nav-pills ml-auto" style={{ marginLeft: 'auto'}}>
       <li>
         <a 
