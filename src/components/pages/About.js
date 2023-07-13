@@ -3,9 +3,9 @@ import nick from '../../assets/hs3.png';
 
 export default function About() {
   return (
-    <div className='container' style={{ maxWidth: "800px", border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
+    <div className='container' style={{ maxWidth: "100%", border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
       <div className='row align-items-center'>
-        <div className='col-8'>
+        <div className='col-sm-8'>
           <h3>Nicholas Ortiz, MS</h3>
           <p>
             Nicholas has a BA from the University of Texas at Austin, an MS Marketing degree
@@ -14,8 +14,8 @@ export default function About() {
           </p>
         </div>
 
-        <div className='container col-4 d-flex justify-content-end align-items-center' style={{border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
-          <img src={nick} alt='Nick' className="justify-content-center" style={{ maxWidth: '226px', height: '283px' }} />
+        <div className='container col-sm-4 d-flex justify-content-end align-items-center' style={{border: "solid", borderStyle: "groove", borderColor: "silver", backgroundColor: "rgb(57, 46, 46)" }}>
+          <img src={nick} alt='Nick' className="img-fluid justify-content-center" />
         </div>
       </div>
     </div>
