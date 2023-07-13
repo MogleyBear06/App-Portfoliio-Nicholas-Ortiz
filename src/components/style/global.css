@@ -12,6 +12,10 @@ h2 {
   margin-bottom: 0pt;
 }
 
+.navbar-nav .nav-item .nav-link.active {
+  background-color: rgb(57, 46, 46) !important;
+}
+
 
 
 .nav-pills .nav-link.active {
