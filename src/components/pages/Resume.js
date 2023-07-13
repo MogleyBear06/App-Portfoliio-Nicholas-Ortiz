@@ -19,7 +19,7 @@ function Resume() {
             Download Resume
           </a>
           <div className="col-12 col-sm-6 col-md-9 d-flex align-items-center" style={{ border: "solid", borderStyle: "groove", borderColor: "silver", height: "200px", backgroundColor: "rgb(57, 46, 46)" }}>
-            <h4>
+            <h4 style={{ backgroundColor: "rgb(57, 46, 46)" }}>
               Want to know the full breadth of Nick's work? Download their resume!
             </h4>
           </div>
