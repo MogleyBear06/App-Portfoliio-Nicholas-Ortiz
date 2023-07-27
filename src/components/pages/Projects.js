@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillGithub } from "react-icons/ai";
 
+import BringMe from "../../assets/bringmelogo.jpg";
 import BarkBook from "../../assets/bb.png";
 import NiftyNote from "../../assets/niftynote.png";
 import Weatherapi from "../../assets/weather.png";
@@ -16,6 +17,16 @@ function Projects() {
       </div>
       <div className="container">
         <div className="row">
+
+        <div className="col-12 col-sm-6 col-md-4 mb-4">
+            <a href="https://main--stalwart-daifuku-cb0dbf.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img src={BringMe} alt="Bringme" className="rounded img-fluid" />
+            </a>
+            <a href='https://github.com/MogleyBear06/BringMeRender.git' target="_blank" rel="noopener noreferrer">
+              <AiFillGithub style={{ color: 'white', fontSize: '40px' }} />
+            </a>
+          </div>
+
           <div className="col-12 col-sm-6 col-md-4 mb-4">
             <a href="https://barkbookapp.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img src={BarkBook} alt="Barkbook" className="rounded img-fluid" />
