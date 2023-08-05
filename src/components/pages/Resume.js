@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NOrtizResume from "../../assets/Nicholas James Ortiz- Resume";
+import NOrtizResume from "../../assets/NicholasJamesOrtiz.Resume.pdf";
 import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
 
