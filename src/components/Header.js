@@ -13,9 +13,6 @@ function Header({ currentPage, handlePageChange }) {
             />
           </div>
         </header>
-        {/* <div className="container">
-        <img src={secondteam} style={{ width: '900px', height: '392px' }}></img>
-        </div> */}
       </section>
     </>
   );

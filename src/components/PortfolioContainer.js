@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Resume from './pages/Resume';
 import About from './pages/About';
-import Portfolio from './pages/Projects';
+import Portfolio from './pages/projects/Projects.js';
 import Contact from './pages/Contact';
 import Video from './vid'
 
@@ -36,6 +36,8 @@ export default function PortfolioContainer() {
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <Video></Video>
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>

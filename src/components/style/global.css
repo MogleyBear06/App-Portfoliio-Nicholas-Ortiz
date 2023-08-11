@@ -2,6 +2,7 @@
     background-color:black;
     font-family: 'Courier New', Courier, monospace;
     -webkit-text-fill-color: silver;
+    font-size: 2vmin;
 }
 
 h2 {
@@ -16,5 +17,3 @@ h2 {
 .nav-pills .nav-link.active {
     background-color: rgb(57, 46, 46) !important;
 }
-
-

@@ -2,6 +2,7 @@ import React from 'react';
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BiLogoImdb } from "react-icons/bi";
+import "../components/style/global.css"
 
 function Links() {
   return (

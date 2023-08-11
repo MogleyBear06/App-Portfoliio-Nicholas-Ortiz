@@ -11,7 +11,7 @@ function Resume() {
     <>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12 col-sm-6 col-md-9 d-flex align-items-center" style={{ border: "solid", borderStyle: "groove", borderColor: "silver", height: "200px", backgroundColor: "rgb(57, 46, 46)" }}>
+          <div className="col-12 col-sm-6 col-md-9 d-flex align-items-center" style={{ border: "solid", borderStyle: "groove", borderWidth:"5px", borderColor: "silver", height: "200px", backgroundColor: "rgb(57, 46, 46)" }}>
             <h4 style={{ backgroundColor: "rgb(57, 46, 46)" }}>
               Want to know the full breadth of Nick's work? Download their resume!
             </h4>
@@ -19,7 +19,7 @@ function Resume() {
           <a
             href={NOrtizResume}
             className="col-12 col-sm-6 col-md-3 d-flex align-items-center justify-content-center text-center"
-            style={{ border: "solid", borderStyle: "groove", borderColor: "silver", height: "200px", fontSize: "16pt", backgroundColor: "rgb(57, 46, 46)" }}
+            style={{ border: "solid", borderStyle: "groove", borderColor: "silver", borderWidth:"5px", height: "200px", fontSize: "16pt", backgroundColor: "rgb(57, 46, 46)" }}
           >
             Download Resume
           </a>
