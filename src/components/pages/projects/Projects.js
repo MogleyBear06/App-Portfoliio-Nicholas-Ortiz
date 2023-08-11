@@ -23,7 +23,9 @@ function Projects() {
         Browse Nicholas' apps to see their work performed during their time in the
         Full-stack web development UT Bootcamp. Although these projects display 
         the use of several technologies, these are only a few examples of Nicholas'
-        proficiencies. Visit their GitHub to see more! 
+        proficiencies. To see more of Nicholas' apps, visit 
+        their <a href="https://github.com/MogleyBear06" target="_blank" rel="noopener noreferrer">GitHub</a> 
+! 
       </p>
       </div>
       <br></br>

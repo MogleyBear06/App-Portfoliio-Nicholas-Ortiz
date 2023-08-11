@@ -17,7 +17,7 @@
 }
 
 .intro {
-    max-width: 100vmin !important;
+    max-width: 110vmin !important;
 }
 
 .featured {
@@ -25,16 +25,13 @@
 }
 
 .header {
-    max-width: 100vmin !important;
-    font-weight: bold;
+    max-width: 110vmin !important;
 }
   .p-container {
     max-width: 30vmin;
     max-height: 30vmin;
     margin: 0 auto; 
     margin-right: 5px;
-    /* border: 5px groove silver; */
-   
   }
 
   

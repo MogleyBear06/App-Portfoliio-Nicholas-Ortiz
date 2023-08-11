@@ -39,9 +39,10 @@ function Contact() {
 
   return (
     <>
-      <h4 className="container">Would you like to know more? Drop us a line and let's start a conversation!</h4>
-      <section>
-        <form className="container-fluid">
+      <h4 className="container" style={{maxWidth:"100vmin"}} >Would you like to know more? Drop us a line and let's start a conversation!</h4>
+      <br></br>
+      <section className="container"  style={{maxWidth:"112vmin"}}>
+        <form >
           <div className="row justify-content-center">
             <div className="col-12 col-sm-10 col-md-5">
               <label>Name</label>
