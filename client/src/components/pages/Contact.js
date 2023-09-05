@@ -10,6 +10,7 @@ function Contact() {
   });
 
   const [errorMessage, setErrorMessage] = useState("");
+  const [submitted, setSubmitted] = useState(false);
 
   const { fullName, email, personTitle, message,} = formState;
   // const [submitErrorMessage, setSubmitErrorMessage] = useState("");
@@ -60,6 +61,10 @@ function Contact() {
           personTitle: "",
           message: "",
         });
+
+        // Set the submitted state to true
+        setSubmitted(true);
+
       } else {
         console.error("Form submission failed");
       }
@@ -69,6 +74,12 @@ function Contact() {
   };
 
   return (
+    <div className="container" style={{ maxWidth: "112vmin" }}>
+    {submitted ? (
+      <p>
+        Thank you for your message, we'll get back to you soon!
+      </p>
+    ) : (
     <>
       <h4 className="container" style={{ maxWidth: "100vmin" }}>
         Would you like to know more? Drop us a line and let's start a
@@ -150,6 +161,8 @@ function Contact() {
         </form>
       </section>
     </>
+    )}
+    </div>
   );
 }
 
