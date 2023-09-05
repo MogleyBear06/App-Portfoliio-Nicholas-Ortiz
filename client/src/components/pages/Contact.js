@@ -74,11 +74,11 @@ function Contact() {
   };
 
   return (
-    <div className="container" style={{ maxWidth: "112vmin" }}>
+    <div className="container" style={{ maxWidth: "100vmin" }}>
     {submitted ? (
-      <p>
+      <h4>
         Thank you for your message, we'll get back to you soon!
-      </p>
+      </h4>
     ) : (
     <>
       <h4 className="container" style={{ maxWidth: "100vmin" }}>
