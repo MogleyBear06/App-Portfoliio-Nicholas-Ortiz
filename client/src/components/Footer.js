@@ -1,28 +1,24 @@
 import React from "react";
 import Links from "./Links";
+import FTabs from "./FTabs";
 
 function Footer({ currentPage, handlePageChange }) {
   return (
-    <div className="container">
-    <footer className="footer py-3 text-center border-top" >
-        
-        <Links currentPage={currentPage} handlePageChange={handlePageChange} />
-        <br style={{ backgroundColor: "black" }} />
-
+    <footer className="footer text-center" style={{ width: "100%", margin: 0, padding: 0 }}>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <FTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        <div className="border-top" style={{ width: "100%" }}>
+          <div style={{ padding: "20px 0" }}>
+            <Links currentPage={currentPage} handlePageChange={handlePageChange} />
+          </div>
+        </div>
         <ul className="align-items-center list-unstyled">
-              <li className="col">
-                Austin, TX
-              </li>
-              <li className="col">
-                (281) 734-8709
-              </li>
-              <li className="col">
-                nicholas.james.ortiz@mbkconsulting.biz
-              </li>
-            </ul>
-        
+          <li className="col">
+            Austin, TX
+          </li>
+        </ul>
+      </div>
     </footer>
-    </div>
   );
 }
 

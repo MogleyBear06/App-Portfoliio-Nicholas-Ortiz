@@ -11,7 +11,7 @@ import SecondTeam from "../../../assets/2ndTeamProductions.png";
 import { Carousel } from "react-bootstrap";
 import './style.css';
 
-function Projects() {
+function WebDev() {
   return (
     <>
       <div className="container header"> 
@@ -259,4 +259,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default WebDev;

@@ -13,9 +13,9 @@ const messageSchema = new Schema ({
         required: true,
         unique: true,
     },
-    personTitle:{
+    serviceType:{
         type: String,
-        enum: ['Client', 'Collaborator', 'Simply Interested'],
+        enum: ['Business Development', 'Web Development', 'Digital Marketing'],
         required: true,
     },
     message:{

@@ -1,18 +1,163 @@
-    *{
-    background-color:black;
-    font-family: 'Courier New', Courier, monospace;
-    -webkit-text-fill-color: silver;
-    font-size: 2.1vmin;
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet');
+
+  body {
+    /* background: linear-gradient(rgb(39, 55, 77), rgb(82, 109, 130), rgb(157, 178, 191)); */
+    background: rgb(39, 40, 41) !important;
+    font-family: 'Roboto', sans-serif !important;
+    -webkit-text-fill-color: rgb(248, 240, 229) !important;
+    font-size: 14px !important;
 }
 
 h2 {
   display: flex;
   font-size: 4vmin;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Playfair Display', serif;
   margin-bottom: 0pt;
+  -webkit-text-fill-color: rgb(167, 156, 141) !important;
+}
+
+h3 {
+  display: flex;
+  font-size: 3.5vmin;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0pt;
+  -webkit-text-fill-color: rgb(167, 156, 141) !important;
+}
+
+h4 {
+  display: flex;
+  font-size: 3vmin;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0pt;
+  -webkit-text-fill-color: rgb(248, 240, 229) !important;
+}
+
+h5 {
+  display: flex;
+  font-size: 2.5vmin;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0pt;
+  -webkit-text-fill-color: rgb(248, 240, 229) !important;
 }
 
 
-.nav-pills .nav-link.active {
-    background-color: rgb(57, 46, 46) !important;
+p {
+  font-size: 14px !important;
+  -webkit-text-fill-color: rgb(248, 240, 229) !important;
+}
+
+.card {
+  transition: transform 0.5s ease-in-out;
+  background: rgb(37, 36, 36) !important;
+  -webkit-text-fill-color: rgb(248, 240, 229) !important;
+  border-style:ridge !important;
+  border-width: 1px;
+  border-color: rgb(248, 240, 229) !important;
+  font-size: 14px !important;
+}
+
+.card.expanded {
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  background: rgb(37, 36, 36) !important;
+  border-style:ridge !important;
+  font-size: 14px !important;
+  min-width:35rem !important;
+  min-height: 30rem !important;
+}
+
+.card-body {
+  border-style: ridge !important;
+  border-width: 1px !important;
+  border-color: rgb(248, 240, 229) !important;
+  font-size: 14px !important;
+}
+.card-img {
+  max-width:10rem;
+  max-height:10rem;
+  margin: 5px; 
+  padding: 10px; 
+}
+
+.card-app {
+  max-width:10rem;
+  max-height:10rem;
+  border-style: none !important;
+  
+}
+
+.carousel-indicators {
+  position: fixed;
+  top: 0; /* Adjust the top value as needed to position it vertically */
+  right: 0; /* Adjust the right value as needed to position it horizontally */
+  left: auto; /* Make sure left is set to 'auto' to override any Bootstrap default */
+  bottom: auto; /* Make sure bottom is set to 'auto' to override any Bootstrap default */
+}
+
+.list-group-item {
+  font-size: 14px !important;
+  -webkit-text-fill-color: rgb(248, 240, 229) !important;
+  background: rgb(67, 66, 66) !important;
+}
+
+.overlay-trigger-tooltip {
+  background: rgb(67, 66, 66) !important;
+}
+
+.centered-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Additional styling if needed */
+}
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
+  margin-left: 20px;
+}
+
+.nav-link{
+  -webkit-text-fill-color: rgb(248, 240, 229) !important;
+}
+
+.navbar {
+  background: rgb(25, 25, 25) !important;
+  margin-left: 22-px;
+}
+
+/* Custom CSS class for toggler and dropdown menu */
+.navbar-toggler {
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.navbar-collapse {
+  margin-right: -20px; /* Adjust the margin to counteract the margin added to the toggler */
+}
+
+.button {
+  background: rgb(67, 66, 66) !important;
+  border-color: rgb(248, 240, 229) !important;
+  border-style:ridge !important;
+}
+
+.contact-text {
+  -webkit-text-fill-color: rgb(67, 66, 66) !important;
+}
+
+.contact-form {
+  min-width:30rem !important;
+  min-height: 20rem !important;
+}
+
+/* .img-fluid {
+  min-width:12rem !important;
+  min-height: 12rem !important;
+} */
+
+.footer {
+  background: rgb(25, 25, 25) !important;
+  max-width: 100%;
 }

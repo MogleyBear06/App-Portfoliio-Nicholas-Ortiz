@@ -3,30 +3,35 @@ import "../components/style/global.css"
 
 import Header from './Header';
 import Footer from './Footer';
-import Resume from './pages/Resume';
+import CTA from './CalltoAction';
+import Home from './pages/Home';
+import Services from './pages/ServicesContainer';
 import About from './pages/About';
-import Portfolio from './pages/projects/Projects.js';
 import Contact from './pages/Contact';
+import ClientLogin from './pages/ClientLogin';
 import Video from './vid'
 
+
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Home');
   
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'Services') {
+      return <Services />;
+    }
     if (currentPage === 'About') {
       return <About />;
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-
+    if (currentPage === 'ClientLogin') {
+      return <ClientLogin />;
     }
   };
 
@@ -35,11 +40,8 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <br></br>
       <Video></Video>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
       <br></br>
       <br></br>
       {renderPage()}
@@ -51,8 +53,9 @@ export default function PortfolioContainer() {
       <br></br>
       <br></br>
       <br></br>
+      <CTA currentPage={currentPage} handlePageChange={handlePageChange} />
       <br></br>
-      <Footer></Footer>
+      <Footer currentPage={currentPage} handlePageChange={handlePageChange} ></Footer>
     </div> 
   )
 }

@@ -5,18 +5,18 @@ function Contact() {
   const [formState, setFormState] = useState({
     fullName: "",
     email: "",
-    personTitle:"",
+    serviceType: "",
     message: "",
   });
 
-  const [errorMessage, setErrorMessage] = useState("");
+    // const [errorMessage, setErrorMessage] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const { fullName, email, personTitle, message,} = formState;
-  // const [submitErrorMessage, setSubmitErrorMessage] = useState("");
+  const { fullName, email, serviceType, message } = formState;
+    // const [submitErrorMessage, setSubmitErrorMessage] = useState("");
 
   function handleChange(e) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
+    setFormState({ ...formState, [e.target.name]: e.target.value });
   }
 
   async function handleSubmit(e) {
@@ -24,7 +24,7 @@ function Contact() {
 
     console.log('Form state before fetch:', formState);
 
-    // setSubmitErrorMessage("");
+       // setSubmitErrorMessage("");
 
     // // Validation logic
     // let errors = [];
@@ -51,117 +51,127 @@ function Contact() {
         },
         body: JSON.stringify(formState),
       });
-      
+
       if (response.ok) {
         console.log("Form submitted successfully");
-        // Reset the form
         setFormState({
           fullName: "",
           email: "",
-          personTitle: "",
+          serviceType: "",
           message: "",
         });
-
-        // Set the submitted state to true
         setSubmitted(true);
-
+        // Set the submitted state to true
       } else {
         console.error("Form submission failed");
       }
     } catch (error) {
       console.error("Error submitting form:", error);
     }
-  };
+  }
 
   return (
     <div className="container" style={{ maxWidth: "100vmin" }}>
-    {submitted ? (
-      <h4>
-        Thank you for your message, we'll get back to you soon!
-      </h4>
-    ) : (
-    <>
-      <h4 className="container" style={{ maxWidth: "100vmin" }}>
-        Would you like to know more? Drop us a line and let's start a
-        conversation!
-      </h4>
-      <br />
-      <section className="container" style={{ maxWidth: "112vmin" }}>
-        <form onSubmit={handleSubmit}>
-          <div className="row justify-content-center">
-            <div className="col-12 col-sm-10 col-md-5">
-              <label>Name</label>
-              <br />
-              <input
-                type="text"
-                value={fullName}
-                onChange={handleChange}
-                name="fullName"
-                placeholder="FirstName, Lastname"
-              />
-            </div>
-            <div className="col-12 col-sm-10 col-md-5">
-              <label>Email</label>
-              <br />
-              <input
-                type="email"
-                value={email}
-                onChange={handleChange}
-                name="email"
-                placeholder="johndoe@gmail.com"
-              />
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-12 col-sm-10 col-md-10">
-              <label htmlFor="status">
-                Are you a potential client, collaborator, or simply
-                interested?
-              </label>
-              <select
-                className="col-2 text-center"
-                placeholder="Select"
-                value={personTitle}
-                onChange={handleChange}
-                name="personTitle"
-              >
-                <option value="Client">Client</option>
-                <option value="Collaborator">Collaborator</option>
-                <option value="Simply Interested">Simply Interested</option>
-              </select>
-            </div>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-12 col-sm-10 col-md-10">
-              <label htmlFor="message">
-                What are you interested in learning more about?
-              </label>
-              <br />
-              <textarea
-                className="col-12 col-sm-10 col-md-10"
-                value={message}
-                onChange={handleChange}
-                name="message"
-                placeholder="Please Enter Your Message"
-                rows="6"
-              />
-            </div>
-          </div>
+      {submitted ? (
+        <h4>
+          Thank you for your message, we'll get back to you soon!
+        </h4>
+      ) : (
+        <>
+           <div className='container d-flex justify-content-center'> 
+      <div className='container' style={{ maxWidth: "95vmin"}}>
+      <div className='row align-items-center'>
+      <div> 
+        <h2 className="d-flex justify-content-center">Contact Us</h2>
+        <h5>
+          Are you interested in working with us? Send us a message and we'll get back to 
+          soon.
+        </h5>
+      </div>
+      </div>
+      </div>
+      </div>
           <br />
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
+          <section className="container" style={{ maxWidth: "112vmin" }}>
+            <div className="card contact-form">
+              <div className="card-body">
+                <form onSubmit={handleSubmit}>
+                  <div className="row">
+                    <div className="col-12 col-sm-10 col-md-6">
+                      <div className="section">
+                      <div className="col-12 col-sm-10 col-md-6">
+                        <label>Name</label>
+                        <input
+                          type="text"
+                          value={fullName}
+                          onChange={handleChange}
+                          name="fullName"
+                          placeholder="Firstname, Lastname"
+                          className="contact-text"
+                        />
+                        
+                        </div>
+                        <br></br>
+                        <div className="col-12 col-sm-10 col-md-6">
+                        <label>Email</label>
+                        <input
+                          type="email"
+                          value={email}
+                          onChange={handleChange}
+                          name="email"
+                          placeholder="johndoe@gmail.com"
+                          className="contact-text"
+                        />
+                        </div>
+                        <br></br>
+                      
+                        <label htmlFor="serviceType">
+                          Which service would you like to learn more about?
+                        </label>
+                        <select
+                          className="col-6 text-center contact-text"
+                          placeholder="Select"
+                          value={serviceType}
+                          onChange={handleChange}
+                          name="serviceType"
+                        >
+                          <option value="Business Development">Business Development</option>
+                          <option value="Web Development">Web Development</option>
+                          <option value="Digital Marketing">Digital Marketing</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div className="col-12 col-sm-10 col-md-6">
+                      <div className="section">
+                        <label htmlFor="message">Message</label>
+                        <textarea
+                          className="col-12 col-sm-10 col-md-12 contact-text"
+                          value={message}
+                          onChange={handleChange}
+                          name="message"
+                          placeholder="Tell us about your business and how we can help."
+                          rows="6"
+                          
+                        /> 
+                       <div className="col-12 col-sm-10 col-md-12">
+                      <button className="button" type="submit">Submit</button>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* {errorMessage && (
+                          <div>
+                            <p className="error-text">{errorMessage}</p>
+                          </div>
+                        )} */}
+                  
+                </form>
+              </div>
             </div>
-          )}
-          <div className="row justify-content-center">
-            <div className="col-12 col-sm-10 col-md-10">
-              <button type="submit">Submit</button>
-            </div>
-          </div>
-        </form>
-      </section>
-    </>
-    )}
+          </section>
+        </>
+      )}
     </div>
   );
 }
