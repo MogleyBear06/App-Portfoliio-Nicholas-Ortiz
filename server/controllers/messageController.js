@@ -5,13 +5,13 @@ module.exports = {
     try {
       console.log('Request Body:', req.body);
       // Validate the request body
-      const { fullName, email, personTitle, message } = req.body;
+      const { fullName, email, serviceType, message } = req.body;
 
-      if (!fullName || !email || !personTitle || !message) {
+      if (!fullName || !email || !serviceType || !message) {
         // If any required fields are missing, return a validation error
         return res.status(400).json({
           error: 'Validation error',
-          message: 'All fields (fullName, email, personTitle, message) are required.',
+          message: 'All fields (fullName, email, serviceType, message) are required.',
         });
       }
 
@@ -22,7 +22,7 @@ module.exports = {
       const newMessage = new Message({
         fullName,
         email,
-        personTitle,
+        serviceType,
         message,
       });
 
