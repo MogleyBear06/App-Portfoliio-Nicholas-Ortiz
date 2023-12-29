@@ -299,7 +299,7 @@ function ServicesTabs({ currentPage, handlePageChange }) {
                         2nd Team Productions is a production studio as well as streaming platform for 
                         independent artists to create both short and feature length films.</Tooltip>}
                         >
-                      <a href="https://mogleybear06.github.io/Nicholas_Ortiz-Portfolio-Second-Team-Productions/">
+                      <a href="https://secondteamproductions.com/">
                        <Card.Img variant="top" src={SecondTeam} alt="SecondTeamProductions" className="card-img"/>
                       </a>
                       </OverlayTrigger>

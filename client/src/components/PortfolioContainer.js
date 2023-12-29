@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "../components/style/global.css"
-
 import Header from './Header';
 import Footer from './Footer';
 import CTA from './CalltoAction';
